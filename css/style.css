@@ -13,6 +13,9 @@ body{
 ul,ol,li{
 	list-style: none;
 }
+label{
+	font-weight: 700;
+}
 a{
 	text-decoration:none;
 	color:#7f8c8d;
@@ -98,9 +101,8 @@ a{
 	width: 100%;
 	border-top: 4px solid #3498db  !important;
 	border-radius: 5px;
-	box-shadow:#bdc3c7 2px 2px 2px;
+	box-shadow:#bdc3c7 2px 2px 2px 2px;
 	margin-right:2px;
-	border:1px solid #bdc3c7;
 }
 .content_1{
 	padding-top:50px;
@@ -715,7 +717,7 @@ footer{
 		display:none ;
 		position: absolute;
 		top: 10%;
-		width: 15%;
+		max-width: 150px;
 		background: rgba(0,0,0,0.7);
 	}
 	.header>img{
@@ -742,7 +744,7 @@ footer{
 		padding-top:10px;
 		padding-left:10px;
 		border-bottom: 1px solid #fff;
-		line-height: 28px;
+		line-height: 21px;
 	}
 	.ul>li:first-child{
 		padding-left: 10px;
@@ -750,7 +752,7 @@ footer{
 	.btn{
 		margin-top:10px;
 		margin-left:10px;
-		margin-bottom: 20px
+		margin-bottom: 10px
 	}
 	.header>img{
 		width: 18%;
@@ -846,17 +848,11 @@ footer{
 	}
 	.form-left >.input{
 		margin:0 auto;
-		max-width: 60%;
-	}
-	.form-left>label{
-		margin-left:20%;
-	}
-	.form-right>label{
-		margin-left: 20%;
+		max-width: 100%;
 	}
 	.form-right>textarea{
 		margin:0 auto;
-		width: 60%;
+		width: 100%;
 	}
 	.form-right{
 		display:flex;
